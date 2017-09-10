@@ -1,5 +1,5 @@
 class GameSerializer < ActiveModel::Serializer
   attributes :id
-
-  has_many :competing_teams
+  
+  has_many :teams
 end
