@@ -1,4 +1,9 @@
 FactoryGirl.define do
+  factory :competing_team do
+    game nil
+    team nil
+    score 1
+  end
   factory :player do
     first_name "MyString"
     last_name "MyString"
